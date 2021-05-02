@@ -1,9 +1,16 @@
 LEVEL-0:
-        We first need to login to the bandit game using ssh by provinding the password as bandit0. It enables permission us to move into next level 
+        We first need to login to the bandit game using ssh by provinding the password as bandit0. It enables permission us to move into next level. 
 LEVEL-1:
         In this level we need to check if any files are available which may contain the flag so we use "ls" command to see if any files are available it displays readme.
-        To read that file we use a command "cat readme" and it displays the flag as "boJ9jbbUNNfktd78OOpsqOltutMc3MY1" which is the password to the next level 
+        To read that file we use a command "cat readme" and it displays the flag as "boJ9jbbUNNfktd78OOpsqOltutMc3MY1" which is the password to the next level.
 LEVEL-2:
-        In this level also we use the command "ls" and it displays - .Now to read that file 
-        
-        
+        In this level also we use the command "ls" and it displays - .Now to read that file we use "cat <-" command and it displays the flag as "CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9"
+        which is the password to next level.
+LEVEL-3:
+        In this level the same commands are used so it displays the flag as "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK"
+LEVEL-4:
+        In this level the same commands are used but these are used twice and flag is "pIwrPrtPN36QITSp3EQaw936yaFoFgAB"
+
+
+
+ 
