@@ -1,1 +1,14 @@
-
+LEVEL-0:
+        I loged into bandit game using SSH on port number 2220 and use the password as "bandit0". We need to find the password to next level using commands.
+        "ls" command is used to list the files. 
+        "cat [file]" displays the contents of the particular file.
+        The password for the next level is "boJ9jbbUNNfktd78OOpsqOltutMc3MY1".        
+LEVEL-1:
+        Again I used "ls" and "cat" commands.
+        The password for the next level is "CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9"
+LEVEL-2:
+        In this case the password is saved in the file named "spaces in this filename".
+        So we read the particular file using "cat" command. The password is displayed as "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK"
+LEVEL-3:
+        In this level we use the "ls" command it displays a directory named inhere. As mentioned in the question that password is hidden in a file so  
+        
