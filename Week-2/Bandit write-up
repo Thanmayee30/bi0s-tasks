@@ -8,7 +8,11 @@ LEVEL-1:
         The password for the next level is "CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9"
 LEVEL-2:
         In this case the password is saved in the file named "spaces in this filename".
-        So we read the particular file using "cat" command. The password is displayed as "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK"
+        So to read the particular file using "cat" command. The password is displayed as "UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK"
 LEVEL-3:
-        In this level we use the "ls" command it displays a directory named inhere. As mentioned in the question that password is hidden in a file so  
+        In this level the "ls" command displays a directory named inhere.To move the file into the inhere directory "cd" command is used.
+        As mentioned in the question that password is hidden in a file so I used a command "ls -a" to look into hidden files 
+        "cat" command is again used to read the hidden file.
+LEVEL-4:
+        In this again "ls" command 
         
