@@ -9,3 +9,4 @@ for i in range(5):
 	flag = binascii.unhexlify(flag)
 	flag = base64.b64decode(flag)
 print(flag)
+#The given text was decoded to hexadecimal base and then to base 64 and the flag obtained is inctfj{Y0u_@re_Qu1t3_th3_D3c0d3r} 
