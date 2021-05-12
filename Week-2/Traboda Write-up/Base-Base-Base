@@ -1,0 +1,4 @@
+The base text is encoded and it is in base64 so we need to decode it first so in Ubuntu terminal I used a command to decode that 'echo "encoded text"|base64 --decode--;'.
+Now the text is in base32 'echo"obtained text"|base32 --decode --;' This actually decodes the base32 encrypted text and after decoding we get a hex encrypted text.
+'echo" "|xxd -p-r|base64--;' command decodes the text and i got a base64 encoded text. And it should be decoded it to get the flag.
+The flag is "inctfj{b4s3s_4r3_c00000000l}"
