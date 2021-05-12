@@ -1,6 +1,5 @@
 
 #include<stdio.h>
- 
 int main()
 {
 	char msg[100], chara;
@@ -35,6 +34,5 @@ int main()
 	}
 	
 	printf("Decrypted message: %s", msg);
-	
 	return 0;
 }
