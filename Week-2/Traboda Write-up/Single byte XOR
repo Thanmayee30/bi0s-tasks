@@ -1,0 +1,1 @@
+I opened the cipher text provided and found that it has been xored against a single character z. we just need to xor it again with the same key to get the flag.
