@@ -1,0 +1,3 @@
+A png file is provided . Use Ghex to look into the data . We can see multiple file signatures after the PNG which is of jpg.
+Edit the data and saved the file to get an image which had the correct flag.
+The flag is "inctfj{y0u_c4nt_s33_m3!!}"
