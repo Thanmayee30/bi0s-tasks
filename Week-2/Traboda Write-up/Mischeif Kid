@@ -2,3 +2,4 @@ First the command unzipmischief.jpg is used and found that there are two files b
 So I renamed flag.txt as flag.png and opened the file . But the file didn't have the flag.
 So downloaded ghex and used it to compare the magic numbers and found some numbers were missing from the busted.png file.
 And edited it to 89 50 4E 47 and opened busted.png and got the flag.
+The Flag is " inctfj{4Ye@aRr4mbB4_u_g0T_m3!}"
