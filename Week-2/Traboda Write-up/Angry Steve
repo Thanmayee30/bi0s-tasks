@@ -1,1 +1,2 @@
-For this challenge I used a command -xxd [file_name] which displays the flag in the format ABCD{ } So the flag is obtained at the end of this command
+For this challenge I used a command -xxd [file_name] which displays the flag in the format ABCD{ } So the flag is obtained at the end of this command.
+The flag is  obtained as "inctfj{string5_m4keth_fl4gs}"
