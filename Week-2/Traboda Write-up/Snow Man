@@ -1,0 +1,3 @@
+In this challange I used stegsnow for which I read the commands from bi0s wiki. Since our code is in encrypted form we need to decode it first.
+For this in terminal the command used is "stegsnow -C -p "thisiseasy" flag.txt". This returns an base64 encrypted text. I decrypted it again to get the flag
+The flag is "inctfj{h4h4_st3gsn0w_i5_c00000001}"
