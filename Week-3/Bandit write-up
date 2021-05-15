@@ -1,1 +1,7 @@
-
+LEVEL-11:
+				 In this level as given in the question the password for the next level is stored in the file data.txt. 
+				 Where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions. 
+				 So a command " cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]' " is used to get the password for next level "5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu".
+LEVEL-12:
+				 
+ 
