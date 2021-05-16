@@ -3,6 +3,16 @@ LEVEL-11:
 	 Where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions. 
 	 So a command " cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]' " is used to get the password for next level "5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu".
 LEVEL-12:
-         In this level
-				 
- 
+         In this level we find that there is a directory named data.txt so I made a temperary directory as mentioned in the question "mkdir /tmp/[file name]". 
+	 Now copy all the text in data.txt into a new file using the command "cp data.txt /tmp/[file name]" and now I traverse to a directory using the command "cd /tmp/[file name]".
+	 Use again ls command and we find data.txt again and now use the command "file data.txt" which returns the file format as ASCII text.
+	 The xxd command "xxd -r data.txt data1" is used to make the hexdump of a file which is also used to reverse this process.
+	 The ‘r’ parameter is used to revert the process and store it in a file named data1. Use the command "file data1" again now it shows the that it is a compressed in a gzip file.
+	 The command "mv data1 data2.gz" is used to move the file to other file named data2. Now decompress the file using the command "gzip -d data2.gz".
+	 Now use the file command again to see the kind of file it displays as bzip file. So we repeat the same steps as mentioned above which are stored in data4 file.
+	 When we use "file data4 " it shows that it is tar archieved file. So extract the files using "tar -xvf data4" it gets stored in another file
+	 Repeat the steps by knowing the kind of file we obtain if that is a tar file then use " tar -xvf [filename]" and if it's bzip then first move the file.
+	 And then decompress the file. Now after repeating the steps we find the password in a file containing ASCII text.
+	 Read the file using cat command and the password is obtained as"8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL".
+LEVEL-13:
+	 
