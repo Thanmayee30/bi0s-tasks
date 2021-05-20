@@ -15,4 +15,15 @@ LEVEL-12:
 	 And then decompress the file. Now after repeating the steps we find the password in a file containing ASCII text.
 	 Read the file using cat command and the password is obtained as"8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL".
 LEVEL-13:
+	 In this level I logged into the level first and used "ls" command it displayed sshkey.private then I tried logging into that particular key using "ssh -i sshkey.private bandit14@localhost"
+	 Then I used the command "cd /etc/bandit_pass/" as given in the question it took me into the directory /etc/bandit_pass/ .
+	 I used "ls" command to list the files and found that there are many files but in the queestion it is given that the password is stored in the file bandit14.
+	 Use the "cat" command to read the file "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e".
+LEVEL-14:
+	 As mentioned in the data the password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
+	 So I used "telnet localhost 30000" it asks the password for before level and when we use the password the next levels password is displayed "BfMYroe26WYalil77FoDi9qh59eK5xNr".
+LEVEL-15:
+	 In this I used a "openssl s_client -connect localhost:30001 -ign_eof" and typed the before levels password.
+	 Then it displays "cluFn7wTiGryunymYOu4RcffSxQluehd"
+LEVEL-16:
 	 
