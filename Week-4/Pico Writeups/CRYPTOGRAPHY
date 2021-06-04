@@ -1,0 +1,23 @@
+The Numbers:
+A .png file is provided with numbers as 16 9 3 15 3 20 6{20 8 5 14 21 13 2 5 18 19 13 1 19 15 14}.
+I found the letters are given numbers. After encoding the given message I obtained it as "PICOCTF{THENUMBERSMASON}".
+
+Easy1:
+The given CTF is Vigenere cipher. The encrypted flag, key, and a table to help UFJKXQZQUNB with the key of SOLVECRYPTO.  
+I used the following algorithm to encode it:
+  1.Find the row corresponding the the letter.
+  2.In the row, find the column which contains the matching ciphertext letter.
+  3.The matching plaintext letter is noted at the top of the column.
+The flag is obtained as "picoCTF{CRYPTOISFUN}".
+
+13:
+Given encoded message in ROT 13 "cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}".
+After decoding it we obtain "picoCTF{not_too_bad_of_a_problem}".
+
+Flags:
+There is a image containing flags and the flag should be in the format of 'PICOCTF{}'.
+After observing the flags and googling them I found that these flags are International Code of Signals and International maritime signal flags.
+So according to the flags I decoded the encrypted message and found the flag as "PICOCTF{F1AG5AND5TUFF}".
+
+
+
