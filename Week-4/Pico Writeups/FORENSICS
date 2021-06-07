@@ -1,0 +1,9 @@
+GARDEN OF THE GLORY:
+There is a .jpg file provided. To extract the hidden flag I used the xxd command which provides the flag at last.
+The flag is "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}".
+SO META:
+The picture provided is in .png So I used the xxd comand.
+The flag obtained as "picoCTF{s0_m3ta_eb36bf44}".
+SHARK ON WIRE 1:
+For this challange the file provided is in the format of .pcap so I used hints and installed the Wireshark.
+I opened the file using Wireshark
